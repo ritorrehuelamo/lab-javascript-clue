@@ -232,10 +232,10 @@ function pick_mistery() {
 }
 
 function reveal_mistery(mistery) {
-
+ console.log("El asesino fue "+ mistery[0].name +" con el arma "+ mistery[1].name +" en "+ mistery[2])
 }
 
-// console.log(pick_mistery())
+console.log(pick_mistery())
 
 var mistery_envelope = pick_mistery();
 reveal_mistery(mistery_envelope);
